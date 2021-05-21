@@ -1,0 +1,238 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.title {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+.list {
+    height: auto;
+    background-color: #343a40;
+}
+
+.list-group-item {
+    background-color: #343a40;
+    border: 0 none;
+    text-align: center;
+}
+
+.list-group-item:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.selected {
+    background-color: #552cb7;
+}
+
+.main {
+    background-color: #fef7ff;
+    font-size: 18px;
+    height: calc(100vh - 84px);
+}
+
+.part {
+    margin-top: 5%;
+}
+
+.part h2 {
+    color: #552cb7;
+    text-align: center;
+    font-size: 53px;
+    letter-spacing: 2px;
+}
+
+.part p {
+    font-size: 26px;
+    text-align: justify;
+    color: #7343dd;
+}
+
+.part .btn {
+    background-color: #552cb7;
+    border: 1px solid #552cb7;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.small-arrow-img {
+    width: 25px;
+    height: 20px;
+}
+
+.btn-save {
+    background-color: #552cb7;
+    border-radius: 15px;
+}
+
+.get-button {
+    background-color: #552cb7;
+    border: 1px solid #552cb7;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.result ::placeholder {
+    color: #552cb7;
+    text-align: center;
+}
+
+.form-control {
+    font-size: 20px;
+}
+
+.result-pswd {
+    resize: none;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+.get-form {
+    border: 1px solid #fce8ff;
+    border-radius: 15px;
+    background-color: #dedede;
+    font-size: 22px;
+    color: #552cb7;
+}
+
+.get-form h2 {
+    color: #552cb7;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+}
+
+.copy-click:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pswd-table {
+    margin-left: auto;
+    margin-right: auto;
+    color: #552cb7;
+    background-color: #dedede;
+    border-radius: 15px;
+    word-wrap: break-word;
+    text-align: center;
+    table-layout: fixed;
+    overflow-x: auto;
+}
+
+.main-img {
+    width: 384px;
+    height: 384px;
+}
+
+tr:first-child td:first-child {
+    border-bottom: 0 none;
+}
+
+.dropdown-toggle {
+    background-color: #dedede;
+    color: #552cb7;
+    font-size: 18px;
+}
+
+.dropdown-item:hover {
+    font-weight: bold;
+    background-color: #dedede;
+}
+
+.btn-login {
+    background-color: #552cb7;
+}
+
+.info {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+.advice-div {
+    background-color: #dedede;
+    border-radius: 15px;
+    color: #552cb7;
+    font-size: 19px;
+}
+
+.user-div {
+    background-color: #dedede;
+    color: #552cb7;
+}
+
+.user-btn {
+    background-color: #552cb7;
+}
+
+.card-up {
+    font-size: 28px;
+}
+
+.user-form {
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+    .list {
+        height: calc(100vh - 120px);
+    }
+    .main-img {
+        height: 75%;
+        width: 75%;
+    }
+    .part p {
+        font-size: 25px;
+    }
+    .menu-arrow {
+        width: 75px;
+        height: 75px;
+        text-align: center;
+    }
+    .pswd-main {
+        min-height: 100vh;
+    }
+    .list {
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width: 1284px) {
+    .pswd-table {
+        width: 75%;
+    }
+    .part {
+        margin-top: 10%;
+    }
+}
+
+@media(min-width: 992px) {
+    html {
+        overflow-x: hidden;
+    }
+}
